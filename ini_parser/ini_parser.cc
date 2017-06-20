@@ -43,6 +43,7 @@ namespace qh
                 }
             }
         }
+        ifs.close();
         return success;
     }
 

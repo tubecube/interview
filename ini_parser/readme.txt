@@ -1,0 +1,8 @@
+Parse函数的时间复杂度取决于string的find函数
+find的时间复杂度是string的长度乘以查找字符串的长度
+Parse过程中包含两类find
+查找line_seperator和查找key_value_seperator
+因此时间复杂度是ini_data.length*(line_seperator.length+key_value_seperator.length)
+
+文件的Parse函数由于行分隔符和key value分隔符默认为'\r\n'和'='
+因此时间复杂度为文件的字符串长度
