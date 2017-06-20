@@ -88,7 +88,7 @@ int main(int argc, char* argv[])
         "4\n0,1,1\n2,4,3\n3,5,1\n5,6,1",
         "5\n0,1,1\n2,4,3\n3,5,1\n5,6,1\n6,8,3",
         //TODO please add more test case here
-        "3\n0,3,1\n1,2,2\n2,4,1",
+        "3\n1,2,2\n2,4,1\n0,3,1",
         "2\n0,2,2\n1,2,2",
         };
     int expectedSteps[] = {25, 4, 7, 10, 14, 15, 3, 12, 13, 14, 20, 8, 6};
